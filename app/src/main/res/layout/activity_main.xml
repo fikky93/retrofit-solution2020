@@ -23,6 +23,7 @@
         android:id="@+id/bntToRegister"
         android:layout_width="match_parent"
         android:layout_height="75dp"
+        android:onClick="handlerRegisterProcess"
         android:text="Register"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -36,7 +37,7 @@
         android:ems="10"
         android:hint="email"
         android:inputType="textEmailAddress"
-        android:text="admin@app.id"
+        android:text="vq@gmail.com"
         app:layout_constraintBottom_toTopOf="@+id/edtPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
